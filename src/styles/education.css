@@ -1,0 +1,110 @@
+
+.cloud {
+    background-color: rgb(15, 14, 14);
+    height: 700px;
+    width: 150vh;
+    margin-left: 200px;
+    margin-top: 10%;
+    border: 1px solid rgb(39, 11, 164);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow:0 4px 8px rgba(243, 243, 7, 0.1);
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+/* .text1 { 
+    text-align: center;
+    margin-bottom: 70vh;
+    margin-right: 5%;
+    
+    font-size: 50px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #ff0000, #ff00f3, #0033ff, #ff00c4, #ff0000, #ff5000, #caef10, #10ef1f);
+     letter-spacing: 5px;
+    background-size: 200%;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    animation:animate 40s linear infinite;
+    
+}  
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+} */
+
+
+.text1 {
+    text-align: center;
+    background: linear-gradient(rgba(0, 174, 255, 0.575), blue, purple, red, seagreen);
+    font-size: 50px;
+    letter-spacing: 10px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.text2 {
+    text-align: center;
+    color: rgb(214, 7, 7);
+    font-size: 50px;
+    margin-top: 20px;
+    background: linear-gradient(45deg, lightgreen, rgba(217, 255, 0, 0.897), white, lightgreen);
+    width: 100vh;
+    margin-left: 15%;
+    box-sizing: border-box;
+
+    font: bold;
+    border: 1px;
+    border-radius:8px;
+    overflow: hidden;
+    animation: color 5s easy-in-out infinite;
+       
+}
+
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+}
+
+.text3 {
+    font-size: 20px;
+    background: linear-gradient(green, coral);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.text4 {
+    background: linear-gradient( rgb(255, 153, 0), blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: customPulse 2s ease-in-out infinite;
+    
+
+}
+@keyframes customPulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+  /* .custom-pulse {
+    animation: customPulse 2s ease-in-out infinite;
+  } */
+
+  .text2{
+
+  }
